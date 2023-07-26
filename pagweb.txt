@@ -1,0 +1,27 @@
+<html>
+   <head>
+   <title>Geoworld</title>
+   </head>
+   <body>
+      Paises del mundo
+	<ul>
+      	    <li>Francia</li>
+ 	    <li>Japón</li>
+  	    <li>Rusia</li>
+            <li>China</li>
+   	    <li>Paraguay</li>
+            <li>Korea del sur</li>
+            <li>India</li>
+       </ul>
+         Capital de cada país
+       <ol>
+          <li>París</li>
+          <li>Tokyo</li>
+          <li>Moskú</li>
+          <li>Pekín</li>
+          <li>Asunción</li>
+          <li>Seúl</li>
+    	  <li>Nueva Delhi</li>
+      </ol>
+   </body>
+</html>
