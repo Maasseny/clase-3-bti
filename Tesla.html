@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros eléctricos, solares y energías limpias</title>
+    <style>
+        body{
+            margin: 0%;
+            padding: 0;
+            overflow-y: hidden;
+        }
+        img{
+            width: 130px;
+            filter: brightness(1000);
+            height: 20px;
+        }
+        main{
+            position: absolute;
+            top: 0px;
+        }
+        header{
+            position: absolute;
+            top: 0;
+            z-index: 10;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: nowrap;
+            flex-direction: row;
+            width: 100%;
+        }
+        li{
+            color: aliceblue;
+        }
+        ul{
+            list-style: none;
+            display: flex; 
+            gap: 40px;
+        }
+        section{
+            position: absolute;
+            top: 100px;
+            color: aliceblue;
+            text-align: center;
+            width: 100%;
+        }
+        #section2{
+            top: 500px;
+
+        }
+        button{
+         color: aliceblue;
+         border: 2px solid aliceblue;
+         background-color: transparent;
+         padding: 10px 20px;
+         border-radius: 5px;   
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./tesla2-removebg-preview.png" alt="">
+        <nav>
+            <ul>
+                <li>Model S</li>
+                <li>Model 3</li>
+                <li>Model X</li>
+                <li>Model Y</li>
+                <li>Solar Roof</li>
+                <li>Solar Panel</li>
+                <li>Powerwall</li>
+            </ul>
+        </nav>
+        <nav>
+            <ul>
+                <li>Shop</li>
+                <li>Account</li>
+                <li>Menu</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Experience Tesla</h1>
+            <h2>Schedule a Demo Drive Today</h2>
+        </section>
+        <section id="section2">
+            <button>Demo Drive</button>
+        </section>
+            <video loop autoplay muted id="video" width="100%" src="./Tesla-fondo.mp4"></video>
+        </main>
+</body>
+</html>

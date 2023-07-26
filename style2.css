@@ -1,0 +1,29 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.grilla{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+    background-color: black;
+    text-align: center;
+}
+.grilla div{
+    background-color: crimson;
+}
+h1{
+    text-align: center;
+    background-color: mediumaquamarine;
+}
+.slider{
+    scroll-snap-type: x mandatory;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    display: flex;
+    gap: 20px;
+    background-color: black;
+}
+.slider img{
+    scroll-snap-align: center;
+}

@@ -1,0 +1,62 @@
+body{
+    font-family: 'Quicksand', sans-serif;
+}
+ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: crimson;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+h1{
+    text-align: center;
+}
+@media screen and (min-width:561px) {
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav{
+        order: 1;
+    }
+    h1{
+        order: 2;
+    }
+}
+@media screen and (max-width:560px) {
+    nav{
+        background: teal;
+        order: 2;
+        height: 0;
+    }
+    a{
+        color: white;
+    }
+    li{
+        text-align: center;
+    }
+    header{
+        display: flex;
+        flex-direction: column;
+    }
+    h1{
+        order: 1;
+    }
+    *{
+        margin: 0;
+        padding 0;
+    }
+    header:hover nav,
+    h1:hover ~ nav{
+        height: max-content;
+    } 
+    h1:hover ~ nav{
+        background-color: crimson;
+}
